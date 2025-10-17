@@ -59,7 +59,7 @@ export const useAuth = () => {
 
 
 const App: React.FC = () => {
-    const [language, setLanguageState] = useState<Language>('en');
+    const [language, setLanguageState] = useState<Language>('ar');
     const [theme, setTheme] = useState<Theme>('light');
     const [isChatOpen, setIsChatOpen] = useState(false);
     const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
